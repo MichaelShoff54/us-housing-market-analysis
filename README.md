@@ -80,5 +80,20 @@ For the 2024 affordability analysis:
 
 For detailed field definitions and calculation methodology, see [`documentation/DATA_DICTIONARY.md`](documentation/DATA_DICTIONARY.md).
 
+## Repository Structure
 
+```text
+us-housing-market-analysis/
+├── dashboard/
+│   └── US_Housing_Market_Analysis.twbx
+├── data/
+│   └── US_Housing_Market_Cleaned_Data.xlsx
+├── documentation/
+│   └── DATA_DICTIONARY.md
+├── screenshots/
+│   ├── housing-market-overview.png
+│   ├── housing-affordability.png
+│   ├── market-investment-explorer.png
+│   └── methodology-data-sources.png
+└── README.md
 
