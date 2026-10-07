@@ -97,3 +97,14 @@ us-housing-market-analysis/
 │   └── methodology-data-sources.png
 └── README.md
 
+## Key Analytical Findings
+
+- **Housing affordability varies substantially across U.S. metropolitan areas.** Comparing typical home values with household income reveals significant differences in the financial burden of homeownership between markets.
+
+- **Higher home values do not necessarily correspond with stronger market growth.** The Growth vs. Affordability analysis shows that market momentum and affordability are distinct characteristics that should be evaluated together.
+
+- **Rental and home-value growth can diverge within the same market.** Comparing both measures provides a broader view of housing-market momentum than relying on home-price appreciation alone.
+
+- **Mortgage rates materially affect affordability.** Using the 2024 average 30-year mortgage rate of 6.724% demonstrates how financing costs increase the income required to support homeownership even when home values remain unchanged.
+
+- **No single metric identifies an attractive housing market.** The project combines home-value growth, rent growth, affordability, income, and financing costs to provide a more complete framework for comparing metropolitan markets.
