@@ -53,3 +53,32 @@ Compares home value growth, rent growth, affordability, and a custom Investment 
 Documents the datasets, calculations, assumptions, data preparation process, and analytical limitations used throughout the project.
 
 ![Methodology & Data Sources](screenshots/Methodology_and_Sources.png)
+
+## Data Sources
+
+This analysis integrates five datasets from three primary sources:
+
+- **Zillow Research — Zillow Home Value Index (ZHVI):** Metro-level typical home values.
+- **Zillow Research — Zillow Observed Rent Index (ZORI):** Metro-level typical monthly rents.
+- **Zillow Research — For-Sale Inventory:** Metro-level housing inventory.
+- **Federal Reserve Economic Data (FRED) — MORTGAGE30US:** 30-year fixed mortgage rates.
+- **U.S. Census Bureau — ACS 5-Year B19013:** 2024 median household income by metropolitan area.
+
+## Methodology
+
+Housing datasets were cleaned and transformed in Excel Power Query, including reshaping monthly data into analysis-ready tables. Weekly mortgage-rate observations were aggregated into monthly averages.
+
+A custom metro crosswalk was created to integrate Census household income data with Zillow metropolitan-area data despite differences in geographic naming conventions.
+
+For the 2024 affordability analysis:
+
+- Home values and rents use December 2024 observations.
+- Household income uses the 2024 ACS 5-Year Estimate.
+- Estimated mortgage payments assume a 20% down payment, 30-year fixed-rate term, and 6.724% average 2024 mortgage rate.
+- Mortgage estimates represent principal and interest only.
+- Investment Growth Score equally weights 2024 home value growth and rent growth.
+
+For detailed field definitions and calculation methodology, see [`documentation/DATA_DICTIONARY.md`](documentation/DATA_DICTIONARY.md).
+
+
+
